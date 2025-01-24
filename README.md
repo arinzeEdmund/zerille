@@ -77,13 +77,21 @@ Expo CLI
 
 **Steps to Run the App** 
 Clone this repository:
-```sh git clone [https://github.com/your-username/task-manager-app.git](https://github.com/arinzeEdmund/zerille)```
+```json
+git clone [https://github.com/your-username/task-manager-app.git](https://github.com/arinzeEdmund/zerille)
+```
 Navigate to the project directory:
-```cd task-manager-app```
+```json 
+cd zerille
+```
 Install dependencies:
-```yarn install```
+``` json 
+yarn install
+```
 Start the Expo development server:
-``` npx expo start```
+```json
+npx expo start
+```
 Use the Expo Go app (iOS/Android) or an emulator to view the app.
 
 
