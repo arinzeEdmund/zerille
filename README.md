@@ -12,17 +12,15 @@ The app uses Redux Toolkit for state management and React Navigation for navigat
 
 ** Splash Screen
 <p align="center">
-  ![Simulator Screen Shot - iPhone 14 Pro Max - 2025-01-24 at 09 03 44](https://github.com/user-attachments/assets/ea146205-3885-4b11-a548-70c7c4b24c21)
 
-  <img width="700" align="center" src="https://github.com/user-attachments/assets/ea146205-3885-4b11-a548-70c7c4b24c21" alt="demo"/>
+  <img width="182" align="center" src="https://github.com/user-attachments/assets/ea146205-3885-4b11-a548-70c7c4b24c21" alt="demo"/>
 </p>
 Just there to give you a warm welcome to our platform
 
 **Home Screen**
 <p align="center">
-  <img width="182" alt="Screen Shot 2025-01-22 at 17 56 00" src="https://github.com/user-attachments/assets/82515f52-c640-4b4a-a085-5bebae95046b" />
 
-  <img width="700" align="center" src="https://github.com/user-attachments/assets/82515f52-c640-4b4a-a085-5bebae95046b" alt="demo"/>
+  <img width="182" align="center" src="https://github.com/user-attachments/assets/82515f52-c640-4b4a-a085-5bebae95046b" alt="demo"/>
 </p>
 
 Displays a list of all tasks.
@@ -33,9 +31,8 @@ Provides options to edit or delete tasks.
 
 **Add Task Screen**
 <p align="center">
-  ![Simulator Screen Shot - iPhone 14 Pro Max - 2025-01-24 at 09 04 03](https://github.com/user-attachments/assets/e09d5c4a-4139-4487-bccc-10f193106010)
 
-  <img width="700" align="center" src="https://github.com/user-attachments/assets/e09d5c4a-4139-4487-bccc-10f193106010" alt="demo"/>
+  <img width="182" align="center" src="https://github.com/user-attachments/assets/e09d5c4a-4139-4487-bccc-10f193106010" alt="demo"/>
 </p>
 
 Form to input a task title and description.
@@ -46,9 +43,8 @@ Saves new tasks to the Redux store.
 
 **Edit Task Screen**
 <p align="center">
-  ![Simulator Screen Shot - iPhone 14 Pro Max - 2025-01-24 at 09 04 13](https://github.com/user-attachments/assets/46a5079c-779e-4fbf-9566-fc52787480e3)
 
-  <img width="700" align="center" src="https://github.com/user-attachments/assets/46a5079c-779e-4fbf-9566-fc52787480e3" alt="demo"/>
+  <img width="182" align="center" src="https://github.com/user-attachments/assets/46a5079c-779e-4fbf-9566-fc52787480e3" alt="demo"/>
 </p>
 
 Pre-populates the form with the selected task's details.
@@ -63,11 +59,9 @@ Removes the task from the Redux store upon confirmation.
 
 **Other Screens added to fill up unused spaces**
 <p align="center">
-![Simulator Screen Shot - iPhone 14 Pro Max - 2025-01-24 at 09 04 21](https://github.com/user-attachments/assets/0fb5a26f-da34-44ff-a9b0-394cead8e58f)
-![Simulator Screen Shot - iPhone 14 Pro Max - 2025-01-24 at 09 04 27](https://github.com/user-attachments/assets/00adf0fd-3ed0-4bc7-827d-8e9b9766e21e)
 
-  <img width="700" align="center" src="https://github.com/user-attachments/assets/0fb5a26f-da34-44ff-a9b0-394cead8e58f" alt="demo"/>
-  <img width="700" align="center" src="https://github.com/user-attachments/assets/00adf0fd-3ed0-4bc7-827d-8e9b9766e21e" alt="demo"/>
+  <img width="182" align="center" src="https://github.com/user-attachments/assets/0fb5a26f-da34-44ff-a9b0-394cead8e58f" alt="demo"/>
+  <img width="182" align="center" src="https://github.com/user-attachments/assets/00adf0fd-3ed0-4bc7-827d-8e9b9766e21e" alt="demo"/>
 </p>
 
 
@@ -83,7 +77,7 @@ Expo CLI
 
 **Steps to Run the App** 
 Clone this repository:
-```sh git clone https://github.com/your-username/task-manager-app.git```
+```sh git clone [https://github.com/your-username/task-manager-app.git](https://github.com/arinzeEdmund/zerille)```
 Navigate to the project directory:
 ```cd task-manager-app```
 Install dependencies:
