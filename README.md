@@ -1,141 +1,214 @@
-<h1 align="center">Welcome to readme-md-generator 👋</h1>
+<h1 align="center">Welcome to Zerille task management app 👋</h1>
+
+
+> This is a React Native Task Management App designed to manage tasks efficiently. The app allows users to perform the following actions:
+`View all tasks on the Home Screen.`
+`Add new tasks using the Add Task Screen.`
+`Edit existing tasks via the Edit Task Screen.`
+`Delete tasks from the list.`
+The app uses Redux Toolkit for state management and React Navigation for navigating between screens.
+
+## ✨ Features
+
+** Splash Screen
 <p align="center">
-  <img src="https://img.shields.io/npm/v/readme-md-generator.svg?orange=blue" />
-  <a href="https://www.npmjs.com/package/readme-md-generator">
-    <img alt="downloads" src="https://img.shields.io/npm/dm/readme-md-generator.svg?color=blue" target="_blank" />
-  </a>
-  <a href="https://github.com/kefranabg/readme-md-generator/blob/master/LICENSE">
-    <img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-yellow.svg" target="_blank" />
-  </a>
-  <a href="https://codecov.io/gh/kefranabg/readme-md-generator">
-    <img src="https://codecov.io/gh/kefranabg/readme-md-generator/branch/master/graph/badge.svg" />
-  </a>
-  <a href="https://github.com/frinyvonnick/gitmoji-changelog">
-    <img src="https://img.shields.io/badge/changelog-gitmoji-brightgreen.svg" alt="gitmoji-changelog">
-  </a>
-  <a href="https://twitter.com/FranckAbgrall">
-    <img alt="Twitter: FranckAbgrall" src="https://img.shields.io/twitter/follow/FranckAbgrall.svg?style=social" target="_blank" />
-  </a>
+  ![Simulator Screen Shot - iPhone 14 Pro Max - 2025-01-24 at 09 03 44](https://github.com/user-attachments/assets/ea146205-3885-4b11-a548-70c7c4b24c21)
+
+  <img width="700" align="center" src="https://github.com/user-attachments/assets/ea146205-3885-4b11-a548-70c7c4b24c21" alt="demo"/>
+</p>
+Just there to give you a warm welcome to our platform
+
+**Home Screen**
+<p align="center">
+  <img width="182" alt="Screen Shot 2025-01-22 at 17 56 00" src="https://github.com/user-attachments/assets/82515f52-c640-4b4a-a085-5bebae95046b" />
+
+  <img width="700" align="center" src="https://github.com/user-attachments/assets/82515f52-c640-4b4a-a085-5bebae95046b" alt="demo"/>
 </p>
 
-> CLI that generates beautiful README.md files.<br /> `readme-md-generator` will suggest you default answers by reading your `package.json` and `git` configuration.
+Displays a list of all tasks.
 
-## ✨ Demo
+Allows users to mark tasks as complete or ongoing.
 
-`readme-md-generator` is able to read your environment (package.json, git config...) to suggest you default answers during the `README.md` creation process:
+Provides options to edit or delete tasks.
 
+**Add Task Screen**
 <p align="center">
-  <img width="700" align="center" src="https://user-images.githubusercontent.com/9840435/60266022-72a82400-98e7-11e9-9958-f9004c2f97e1.gif" alt="demo"/>
+  ![Simulator Screen Shot - iPhone 14 Pro Max - 2025-01-24 at 09 04 03](https://github.com/user-attachments/assets/e09d5c4a-4139-4487-bccc-10f193106010)
+
+  <img width="700" align="center" src="https://github.com/user-attachments/assets/e09d5c4a-4139-4487-bccc-10f193106010" alt="demo"/>
 </p>
 
-Generated `README.md`:
+Form to input a task title and description.
 
+Option to set the completion status of the task.
+
+Saves new tasks to the Redux store.
+
+**Edit Task Screen**
 <p align="center">
-  <img width="700" src="https://user-images.githubusercontent.com/9840435/60266090-9cf9e180-98e7-11e9-9cac-3afeec349bbc.jpg" alt="cli output"/>
+  ![Simulator Screen Shot - iPhone 14 Pro Max - 2025-01-24 at 09 04 13](https://github.com/user-attachments/assets/46a5079c-779e-4fbf-9566-fc52787480e3)
+
+  <img width="700" align="center" src="https://github.com/user-attachments/assets/46a5079c-779e-4fbf-9566-fc52787480e3" alt="demo"/>
 </p>
 
-Example of `package.json` with good meta data:
+Pre-populates the form with the selected task's details.
+
+Allows updating the title, description, or completion status.
+
+Saves the updated task back to the Redux store.
+
+**Delete Task Functionality**
+Prompts the user with a confirmation alert before deleting a task.
+Removes the task from the Redux store upon confirmation.
+
+**Other Screens added to fill up unused spaces**
+<p align="center">
+![Simulator Screen Shot - iPhone 14 Pro Max - 2025-01-24 at 09 04 21](https://github.com/user-attachments/assets/0fb5a26f-da34-44ff-a9b0-394cead8e58f)
+![Simulator Screen Shot - iPhone 14 Pro Max - 2025-01-24 at 09 04 27](https://github.com/user-attachments/assets/00adf0fd-3ed0-4bc7-827d-8e9b9766e21e)
+
+  <img width="700" align="center" src="https://github.com/user-attachments/assets/0fb5a26f-da34-44ff-a9b0-394cead8e58f" alt="demo"/>
+  <img width="700" align="center" src="https://github.com/user-attachments/assets/00adf0fd-3ed0-4bc7-827d-8e9b9766e21e" alt="demo"/>
+</p>
+
+
+## ✨Installation and Setup
+
+**Prerequisites**
+
+Node.js (v14 or later)
+
+npm or yarn
+
+Expo CLI
+
+**Steps to Run the App** 
+Clone this repository:
+```sh git clone https://github.com/your-username/task-manager-app.git```
+Navigate to the project directory:
+```cd task-manager-app```
+Install dependencies:
+```yarn install```
+Start the Expo development server:
+``` npx expo start```
+Use the Expo Go app (iOS/Android) or an emulator to view the app.
+
+
+## ✨ Screens Overview
+
+** 1. Home Screen **
+Purpose:
+
+Displays all tasks in a scrollable list.
+
+Allows users to edit, delete, or view task details.
+
+Features: Task status indicator (e.g., Completed, In Progress).
+
+Delete button with confirmation alert.
+
+Edit button to navigate to the Edit Task Screen with the task's details.
+
+**2. Add Task Screen**
+
+Purpose: Form to create a new task.
+
+Form Fields: Title (text input)
+
+Description (text input)
+
+Completion Status (toggle or dropdown)
+
+Actions: Add button to save the task.
+
+Cancel button to return to the Home Screen.
+
+**3. Edit Task Screen**
+
+Purpose:Allows editing of an existing task.
+
+Form Fields:Pre-filled title and description fields.
+
+Completion Status field.
+
+Actions:Save button to update the task.
+
+Cancel button to return to the Home Screen.
+
+## ✨ State Management
+
+The app uses Redux Toolkit for state management. The state is structured as follows:
+Task Slice
+
 
 ```json
-// The package.json is not required to run README-MD-GENERATOR
-{
-  "name": "readme-md-generator",
-  "version": "0.1.3",
-  "description": "CLI that generates beautiful README.md files.",
-  "author": "Franck Abgrall",
-  "license": "MIT",
-  "homepage": "https://github.com/kefranabg/readme-md-generator#readme",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kefranabg/readme-md-generator.git"
+import { createSlice } from '@reduxjs/toolkit';
+
+const initialState = {
+  tasks: [],
+};
+
+const taskSlice = createSlice({
+  name: 'tasks',
+  initialState,
+  reducers: {
+    addTask: (state, action) => {
+      state.tasks.push(action.payload);
+    },
+    editTask: (state, action) => {
+      const { id, title, description, completionStatus } = action.payload;
+      const task = state.tasks.find((task) => task.id === id);
+      if (task) {
+        task.title = title;
+        task.description = description;
+        task.completionStatus = completionStatus;
+      }
+    },
+    deleteTask: (state, action) => {
+      state.tasks = state.tasks.filter((task) => task.id !== action.payload);
+    },
   },
-  "bugs": {
-    "url": "https://github.com/kefranabg/readme-md-generator/issues"
-  },
-  "engines": {
-    "npm": ">=5.5.0",
-    "node": ">=9.3.0"
-  }
-}
+});
+
+export const { addTask, editTask, deleteTask } = taskSlice.actions;
+export default taskSlice.reducer;
+
 ```
 
-## 🚀 Usage
+**Sample Redux Flow**
 
-Make sure you have [npx](https://www.npmjs.com/package/npx) installed (`npx` is shipped by default since npm `5.2.0`)
-
-Just run the following command at the root of your project and answer questions:
-
-```sh
-npx readme-md-generator
+Adding a Task:
+```json 
+dispatch(addTask({ id: '1', title: 'New Task', description: 'Task Description', completionStatus: false }));
 ```
 
-Or use default values for all questions (`-y`):
-
-```sh
-npx readme-md-generator -y
+Editing a Task:
+```json 
+dispatch(editTask({ id: '1', title: 'Updated Task', description: 'Updated Description', completionStatus: true }));
 ```
 
-Use your own `ejs` README template (`-p`):
-
-```sh
-npx readme-md-generator -p path/to/my/own/template.md
+Editing a Task:
+```json 
+dispatch(deleteTask('1'));
 ```
 
-You can find [ejs README template examples here](https://github.com/kefranabg/readme-md-generator/tree/master/templates).
+## ✨ Acknowledgments
 
-## Code Contributors
+This app was built using:
+Expo
+React Redux
 
-This project exists thanks to all the people who contribute. [[Contribute](CONTRIBUTING.md)].
-<a href="https://github.com/kefranabg/readme-md-generator/graphs/contributors"><img src="https://opencollective.com/readme-md-generator/contributors.svg?width=890&button=false" /></a>
 
-## Financial Contributors
+## 🚀 License
 
-Become a financial contributor and help us sustain our community. [[Contribute](https://opencollective.com/readme-md-generator/contribute)]
+This project is open-source and available under the MIT License.
+Feel free to fork, modify, and enhance this project. If you encounter any issues, please create a GitHub issue or reach out.
 
-### Individuals
-
-<a href="https://opencollective.com/readme-md-generator"><img src="https://opencollective.com/readme-md-generator/individuals.svg?width=890"></a>
-
-### Organizations
-
-Support this project with your organization. Your logo will show up here with a link to your website. [[Contribute](https://opencollective.com/readme-md-generator/contribute)]
-<a href="https://opencollective.com/readme-md-generator/organization/0/website"><img src="https://opencollective.com/readme-md-generator/organization/0/avatar.svg"></a>
-<a href="https://opencollective.com/readme-md-generator/organization/1/website"><img src="https://opencollective.com/readme-md-generator/organization/1/avatar.svg"></a>
-<a href="https://opencollective.com/readme-md-generator/organization/2/website"><img src="https://opencollective.com/readme-md-generator/organization/2/avatar.svg"></a>
-<a href="https://opencollective.com/readme-md-generator/organization/3/website"><img src="https://opencollective.com/readme-md-generator/organization/3/avatar.svg"></a>
-<a href="https://opencollective.com/readme-md-generator/organization/4/website"><img src="https://opencollective.com/readme-md-generator/organization/4/avatar.svg"></a>
-<a href="https://opencollective.com/readme-md-generator/organization/5/website"><img src="https://opencollective.com/readme-md-generator/organization/5/avatar.svg"></a>
-<a href="https://opencollective.com/readme-md-generator/organization/6/website"><img src="https://opencollective.com/readme-md-generator/organization/6/avatar.svg"></a>
-<a href="https://opencollective.com/readme-md-generator/organization/7/website"><img src="https://opencollective.com/readme-md-generator/organization/7/avatar.svg"></a>
-<a href="https://opencollective.com/readme-md-generator/organization/8/website"><img src="https://opencollective.com/readme-md-generator/organization/8/avatar.svg"></a>
-<a href="https://opencollective.com/readme-md-generator/organization/9/website"><img src="https://opencollective.com/readme-md-generator/organization/9/avatar.svg"></a>
-
-## 🤝 Contributing
-
-Contributions, issues and feature requests are welcome.<br />
-Feel free to check [issues page](https://github.com/kefranabg/readme-md-generator/issues) if you want to contribute.<br />
-[Check the contributing guide](./CONTRIBUTING.md).<br />
 
 ## Author
 
-👤 **Franck Abgrall**
+👤 **Arinzechukwu Edmund**
 
-- Twitter: [@FranckAbgrall](https://twitter.com/FranckAbgrall)
-- Github: [@kefranabg](https://github.com/kefranabg)
-
-## Show your support
-
-Please ⭐️ this repository if this project helped you!
-
-<a href="https://www.patreon.com/FranckAbgrall">
-  <img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" width="160">
-</a>
-
-## 📝 License
-
-Copyright © 2019 [Franck Abgrall](https://github.com/kefranabg).<br />
-This project is [MIT](https://github.com/kefranabg/readme-md-generator/blob/master/LICENSE) licensed.
-
+- LinkedIn: [Arinzechukwu Edmund](https://www.linkedin.com/in/arinzechukwu-edmund-015314120/)
 ---
 
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
+_This Project is done with ❤️ by Arizechukwu edmund [portfolio website](http://arinzeedmund.online)_
