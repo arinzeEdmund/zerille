@@ -36,7 +36,7 @@ const formattedDate = today.toISOString().split("T")[0];
       </View>
 
       {/* Title */}
-      <Text style={styles.title}>Today</Text>
+      <Text style={styles.title}>Project Board</Text>
 
       {/* Task Status Cards */}
       <View style={styles.statusContainer}>

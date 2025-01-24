@@ -40,7 +40,7 @@ const styles = StyleSheet.create({
 
     position: 'absolute',
     top: 15,
-    left: 150
+    left: 120
   },
   statusText: {
     color: colors.primary[10],

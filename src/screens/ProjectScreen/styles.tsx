@@ -29,6 +29,7 @@ const styles = StyleSheet.create({
     paddingVertical: 10,
     paddingHorizontal: 20,
     borderRadius: 20,
+    marginRight: 4,
     backgroundColor: "#F6F6F6",
   },
   activeTab: { backgroundColor: "#6A5AE0" },
@@ -47,7 +48,7 @@ const styles = StyleSheet.create({
   projectTeamContainer: {
     flexDirection: "row",
     alignItems: "center",
-    marginVertical: 10,
+    marginVertical: 20,
   },
   teamText: { fontSize: 14, color: "#000", marginRight: 10 },
   teamImages: { flexDirection: "row", marginLeft: 7 },

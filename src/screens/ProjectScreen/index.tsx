@@ -12,6 +12,8 @@ import styles from "./styles";
 import { projectsData } from "@/src/mock";
 
 const stages = ["All", "Ongoing", "Completed", "Canceled"];
+const today = new Date();
+const formattedDate = today.toISOString().split("T")[0];
 
 const ProjectScreen = () => {
   const [active, setActive] = useState("All");
@@ -34,6 +36,7 @@ const ProjectScreen = () => {
 
       {/* Tabs */}
       <View style={styles.tabsContainer}>
+        <ScrollView horizontal={true} showsHorizontalScrollIndicator={false}> 
         {stages.map((item, index) => {
           return (
             <TouchableOpacity
@@ -55,6 +58,7 @@ const ProjectScreen = () => {
             </TouchableOpacity>
           );
         })}
+        </ScrollView>
       </View>
 
       {/* Projects List */}
@@ -84,7 +88,7 @@ const ProjectScreen = () => {
               <View style={styles.projectDetailsRow}>
                 <View style={styles.projectDetailItem}>
                   <Ionicons name="calendar-outline" size={16} color="#C4C4C4" />
-                  <Text style={styles.projectDetailText}>{project.date}</Text>
+                  <Text style={styles.projectDetailText}>{formattedDate}</Text>
                 </View>
                 <View style={styles.projectDetailItem}>
                   <Ionicons name="checkbox-outline" size={16} color="#C4C4C4" />

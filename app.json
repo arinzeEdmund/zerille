@@ -19,10 +19,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/zerille_logo.png",
         "backgroundColor": "#6146c6"
-      }
+      },
+      "package": "com.zerille.zerille"
     },
     "web": {
       "favicon": "./assets/zerille_logo.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a0a97791-7654-440e-b71c-1ca305809e92"
+      }
     }
   }
 }
